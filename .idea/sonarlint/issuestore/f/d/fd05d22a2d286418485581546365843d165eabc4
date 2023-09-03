@@ -1,0 +1,14 @@
+
+D
+java:S2189[""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‡†×–1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(óÕÔÖ8•†×–1
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(Êô²ºúÿÿÿÿ8›†×–1
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(òÎï8›†×–1
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(Ì“€¾ùÿÿÿÿ8›†×–1
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(òÅ 8†×–1
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(áÃÁ÷ıÿÿÿÿ8†×–1
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(Â¿ñ®ùÿÿÿÿ8Ù•ò–1
+X	java:S125C"<This block of commented-out lines of code should be removed.(®’ß8†×–1
+{
+java:S2142e"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8­†×–1

@@ -57,7 +57,7 @@ public class EmailListener implements Callable<Void> {
                         if (Part.ATTACHMENT.equalsIgnoreCase(part.getDisposition())) {
                             // Handle the attachment
                             String fileName = part.getFileName();
-                            String filePath = "C:\\Users\\neziri.zenit\\Desktop\\SaveFileHere\\" + fileName;
+                            String filePath = "C:\\Users\\testUser\\Desktop\\SaveFileHere\\" + fileName;
                             part.saveFile(filePath);
                             System.out.println("Attachment saved: " + filePath);
                             System.out.println("___________________________________________________________________________");
@@ -84,9 +84,9 @@ public class EmailListener implements Callable<Void> {
     public static void main(String[] args) {
 
         String host = "outlook.office365.com";// change accordingly
-        String username = "zenitneziri@hotmail.com";// change accordingly
-        String password = "3I7HDy%n16f2WNAiiZkE";// change accordingly
-        String senderEmail = "neziri.zenit@gmail.com";
+        String username = "test@hotmail.com";// change accordingly
+        String password = "changeaccordingly";// change accordingly
+        String senderEmail = "test@gmail.com";
 
         while (true) {
             try {
